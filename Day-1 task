@@ -1,0 +1,28 @@
+HTTP 1.1 VS HTTP 2 DIFFERENCE
+
+
+HTTP - Hypertext transfer protocol.
+
+It helps to transfer the data over internet between  client and server side.
+Multiplexing is the main difference between the HTTP 1.1 and HTTP2
+HTTP 1.1 have 3 TCP connections
+HTTP 1.1 loads resources one after other,so if one resource can’t be loaded, it blocks all the other resources
+However HTTP 2 have 1 TCP connection
+It is able to use a single TCP connection to send multiple data at once so that no one resource blocks any other resource.
+
+
+JAVASCRIPT (OBJECTS).....{ key : value};
+
+  A javascript object is an entity having state and behaviour.
+We can store several things inside an object.
+For example:
+
+Objects { key: value}
+ Array
+ Function
+
+
+myObject = { Car : “BMW”, 
+                     Color : “Black”, 
+                     Model : “2023” ,
+                     Type : “EV” }
